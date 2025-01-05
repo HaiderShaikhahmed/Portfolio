@@ -1,12 +1,12 @@
 "use client"
 import { MdLocationPin } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
-import Link from "next/link"
-import Image from "next/image"
-import { FaBeer } from "react-icons/fa";
-import { IoCloudDownloadOutline } from "react-icons/io5";
+// import Link from "next/link"
+// import Image from "next/image"
+// import { FaBeer } from "react-icons/fa";
+// import { IoCloudDownloadOutline } from "react-icons/io5";
 import React from "react"
-import { WiDayHail } from "react-icons/wi";
+// import { WiDayHail } from "react-icons/wi";
 import Typewriter from 'typewriter-effect';
 const Contact = () => {
     return (

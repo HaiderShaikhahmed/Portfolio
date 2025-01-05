@@ -1,7 +1,8 @@
 "useclient"
+import logo from "../../../public/assets/image/logo.jpeg";
 import Link from "next/link"
 import Image from "next/image"
-import { FaBeer } from "react-icons/fa";
+// import { FaBeer } from "react-icons/fa";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 import React from "react"
 const Navbar = () => {
@@ -9,7 +10,8 @@ const Navbar = () => {
         <div className="sticky top-0 z-50 bg-white"><header className="text-gray-600 body-font">
             <div className="container mx-auto  flex flex-wrap p-2  flex-col md:flex-row items-center">
                 <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                     <Image src={require(".././../../public/assets/image/logo.jpeg")}  width={100} height={100} alt="logo"
+                <Image 
+  src={logo}  width={100} height={100} alt="logo"
                      className="w-10 rounded-full"/>
                     <span className="ml-3 text-xl">Haider_desiging</span>
                 </a>
