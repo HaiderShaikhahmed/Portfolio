@@ -25,7 +25,7 @@ const Hero = () => {
 
                         <h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium text-gray-900">
                             <h1 className="   text-blue-500 text-5xl mb-5">Haider Designing
-                            </h1>                            <Typewriter
+                            </h1>   <Typewriter
                                 options={{
                                     strings: ['CROSSWORLD', 'Skin Care Brand'],
                                     autoStart: true,

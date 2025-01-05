@@ -1,11 +1,11 @@
 "useclient"
 import Link from "next/link"
-import Image from "next/image"
+// import Image from "next/image"
 import { FaBeer } from "react-icons/fa";
-import { IoCloudDownloadOutline } from "react-icons/io5";
+// import { IoCloudDownloadOutline } from "react-icons/io5";
 import React from "react"
-import { WiDayHail } from "react-icons/wi";
-import Typewriter from 'typewriter-effect';
+// import { WiDayHail } from "react-icons/wi";
+// import Typewriter from 'typewriter-effect';
 const Services = () => {
     return (
         <>
