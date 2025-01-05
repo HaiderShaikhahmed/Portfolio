@@ -1,7 +1,7 @@
 "useclient"
 import Link from "next/link"
 // import Image from "next/image"
-import { FaBeer } from "react-icons/fa";
+// import { FaBeer } from "react-icons/fa";
 // import { IoCloudDownloadOutline } from "react-icons/io5";
 import React from "react"
 // import { WiDayHail } from "react-icons/wi";
