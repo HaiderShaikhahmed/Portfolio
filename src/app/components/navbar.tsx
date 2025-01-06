@@ -15,7 +15,7 @@ const Navbar = () => {
                      className="w-10 rounded-full"/>
                     <span className="ml-3 text-xl">Haider_desiging</span>
                 </a>
-                <nav className="md:ml-auto md:mr-auto space-x-5 gap-6 flex flex-wrap items-center text-base justify-center">
+                <nav className="md:ml-auto md:mr-auto space-x-5 md:space-x-2 gap-6 flex flex-wrap items-center text-base justify-center">
                     <Link href={"/"}className="mr-5  border-b hover:shadow-lg hover:w-15 hover:text-blue-600">Home</Link>
                     <Link href={"#project"}className="mr-5  border-b hover:shadow-lg hover:w-15 hover:text-blue-600">Projects</Link>
                     <Link href={"#services"}className="mr-5  border-b hover:shadow-lg hover:w-15 hover:text-blue-600">Services</Link>
