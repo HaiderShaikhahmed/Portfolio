@@ -11,7 +11,9 @@
   "dependencies": {
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "framer-motion": "^11.16.0",
     "lucide-react": "^0.469.0",
+    "motion": "^11.16.0",
     "next": "15.1.3",
     "react": "^18.3.1",
     "react-countup": "^6.5.3",
@@ -32,10 +34,7 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
-"rules": {
+  "rules": {
     "react/no-unescaped-entities": "off"
   }
-  
-    
-  
 }

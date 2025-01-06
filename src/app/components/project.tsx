@@ -10,7 +10,7 @@ import { IoStarSharp } from "react-icons/io5";
 const Project = () => {
     return (
         <>
-    <div><>
+    <div id="project"><>
   <section className="text-gray-600 body-font">
     <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-col">
@@ -49,18 +49,16 @@ wa.me/c/923184855775
         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
           <div className="rounded-lg h-64 overflow-hidden">
             <img
-              alt="content"
+              alt="Skinlotion"
               className="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/1203x503"
+              src={require("./../../../public/assets/image/skin lotion.png")}
             />
           </div>
           <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-            Shooting Stars
+            Birthday Cards
           </h2>
           <p className="text-base leading-relaxed mt-2">
-            Swag shoivdigoitch literally meditation subway tile tumblr
-            cold-pressed. Gastropub street art beard dreamcatcher neutra,
-            ethical XOXO lumbersexual.
+            A Birthday is a Day to show much you love somone by your heart. It is the Best day to give someone the best wishes via Birthday Card.
           </p>
           <a className="text-blue-500 inline-flex items-center mt-3">
             Learn More
