@@ -1,6 +1,9 @@
 "useclient"
 import React from "react"
-import product from "../../../public/assets/image/skin lotion.png"
+
+import PSD from "../../../public/assets/image/hair oil.jpg"
+
+import Lotion from "../../../public/assets/image/skin lotion.png"
 // import Link from "next/link"
 import Image from "next/image"
 // import { FaBeer } from "react-icons/fa";
@@ -49,12 +52,12 @@ wa.me/c/923184855775
       </div>
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div className="rounded-lg h-64 overflow-hidden">
+          <div className="rounded-lg h-64 overflow-hidden transition  hover:scale-105 active:scale-1 ">
             <Image
             
-              className="object-contain h-full w-full"
+              className="object-contain rounded-md  hover:translate-x-1  transition h-full w-full"
               alt="Skin"
-              src={product}
+              src={Lotion}
               width={500}
               height={500}
             />
@@ -85,11 +88,15 @@ wa.me/c/923184855775
         </div>
         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
           <div className="rounded-lg h-64 overflow-hidden">
-            <img
-              alt="content"
-              className="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/1204x504"
-            />
+          <Image
+            
+            className="object-contain h-full w-full"
+            alt="Skin"
+            src={PSD}
+            width={500}
+            height={500}
+          />
+
           </div>
           <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
             The Catalyzer
