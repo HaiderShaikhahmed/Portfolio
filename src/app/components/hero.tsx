@@ -27,7 +27,7 @@ const Hero = () => {
                     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
 
                         <h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium text-gray-900">
-                            <h1 className="   text-blue-500 sm:text-5xl  text-4xl sm:mb-4 mb-2">
+                            <h1 className="   text-[#007FFF] sm:text-5xl  text-4xl sm:mb-4 mb-2">
                                 Haider Designing
                             </h1>   <Typewriter
                                 options={{
@@ -50,7 +50,7 @@ const Hero = () => {
                             Skin Lotion
                         </p>
                         <div className="flex justify-center">
-                            <button className=" hover:-translate-y-2  transition delay-75  inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                            <button className=" hover:-translate-y-2  transition delay-75  inline-flex text-white hover:bg-[#00308F] border-0 py-2 px-6 focus:outline-none bg-[#007FFF] rounded text-lg">
                                 Vist page
                             </button>
                             <button className="ml-4 inline-flex text-white  font-bold hover:-translate-y-2  transition delay-75 bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-8   00  rounded text-lg">

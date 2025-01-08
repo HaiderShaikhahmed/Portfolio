@@ -22,10 +22,11 @@ const Project = () => {
         <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
           <h1 className="sm:w-2/5 text-gray-900 sm:font-medium title-font  font-bold text-5xl mb-2 sm:mb-0">
             Near to Achievement
-            <p className=" text-[#FFD700] flex gap-4"><IoStarSharp />
-            <IoStarSharp />
-            <IoStarSharp />
-            <IoStarSharp />
+            <p className=" text-[#FFD700]  flex gap-4">
+            <IoStarSharp className="transition hover:text-[#ffb342]   hover:-translate-y-1" />
+            <IoStarSharp className="transition hover:text-[#ffb342]   hover:-translate-y-1" />
+            <IoStarSharp className=" transition hover:text-[#ffb342]  hover:-translate-y-1"/>
+            <IoStarSharp className="transition hover:text-[#ffb342] hover:animate hover:-translate-y-1" />
 </p>
           </h1>
           <p className=" flex flex-col sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
