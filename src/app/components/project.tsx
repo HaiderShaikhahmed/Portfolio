@@ -1,6 +1,6 @@
 "useclient"
 import React from "react"
-// import product from "../../../public/assets/image/skin lotion.png"
+import product from "../../../public/assets/image/skin lotion.png"
 // import Link from "next/link"
 import Image from "next/image"
 // import { FaBeer } from "react-icons/fa";
@@ -50,14 +50,14 @@ wa.me/c/923184855775
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
           <div className="rounded-lg h-64 overflow-hidden">
-            {/* <Image/>
-            <img
-              className="object-cover object-center h-full w-full"
+            <Image
+            
+              className="object-contain h-full w-full"
               alt="Skin"
-              src={"Skin"}
+              src={product}
               width={500}
               height={500}
-            /> */}
+            />
 
 
             {/* <Image src={"product"} width={100} height={100} alt="pic"/> */}

@@ -14,7 +14,7 @@ const Services = () => {
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h2 className="text-xl  text-center sm:text-4xl font-bold text-yellow-500 tracking-widest title-font mb-1">
+              <h2 className="text-xl  text-center sm:text-5xl font-bold text-yellow-500 tracking-widest title-font mb-1">
                 Haider Shaikh
               </h2>
 
@@ -40,8 +40,9 @@ const Services = () => {
                     strings: ['Haider Designing | Graphics (@haider_designing) is a graphic design service based in Latifabad, Hyderabad, Sindh, Pakistan. With over 1,100 followers on Instagram, Haider showcases a diverse portfolio of design work, including logos, posters, and digital illustrations.The Instagram feed features recent projects, such as a graphic posted on January 1, 2025. While specific details about Haider s services and background are limited, the Instagram page serves as a visual portfolio, highlighting the creative range and style of the designer.For more information or to inquire about services, you can visit the Instagram page: @haider_designing..','Haider Designing | Graphics (@haider_designing) is a graphic design service based in Latifabad, Hyderabad, Sindh, Pakistan. With over 1,100 followers on Instagram, Haider showcases a diverse portfolio of design work, including logos, posters, and digital illustrations.The Instagram feed features recent projects, such as a graphic posted on January 1, 2025. While specific details about Haider s services and background are limited, the Instagram page serves as a visual portfolio, highlighting the creative range and style of the designer.For more information or to inquire about services, you can visit the Instagram page: @haider_designing..'],
                     autoStart: true,
                     loop: true,
-                    wrapperClassName: '  ml-5 text-s font-semibold ',
-                    deleteSpeed: 150,
+                    wrapperClassName: 'hover:text-blue-900 hover:animation-pulse transition ml-5 text-s font-semibold ',
+                    // typeSpeed : 0,
+                    deleteSpeed: 10,
                     delay: 100,
 
                   }} />
@@ -50,7 +51,7 @@ const Services = () => {
                 </i> 
               </p>
             </div>
-            <div className="   flex flex-wrap">
+            <div className="flex flex-wrap">
               <div className="border-b hover:drop-shadow-2xl xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                 <h2 className="text-lg  hover:text-blue-700 sm:text-xl text-gray-900 font-medium title-font mb-2">
                   Pakaging Designs
@@ -62,13 +63,12 @@ const Services = () => {
                   Learn More
                   <FaArrowRightLong  className="ml-3 mt-1 focus:text-blue-600"/> </a>
               </div>
-              <div className="xl:w-1/4 border-b hover:drop-shadow-2xl lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <div className="xl:w-1/4 border-b  hover:drop-shadow-2xl lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                 <h2 className="text-lg  hover:text-blue-700 sm:text-xl text-gray-900 font-medium title-font mb-2">
                   Birthdady Cards
                 </h2>
                 <p className="leading-relaxed text-base mb-4 line-clamp-2">
-                  Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                  hexagon disrupt edison bulbche.
+                 Birthday card is the main things that build the lovebonds 
                 </p>
                 <a  href ="https://www.instagram.com/haider_designing/#/" className="text-yellow-500 inline-flex items-center">
                   Learn More
