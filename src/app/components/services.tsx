@@ -40,9 +40,9 @@ const Services = () => {
                     strings: ['Haider Designing | Graphics (@haider_designing) is a graphic design service based in Latifabad, Hyderabad, Sindh, Pakistan. With over 1,100 followers on Instagram, Haider showcases a diverse portfolio of design work, including logos, posters, and digital illustrations.The Instagram feed features recent projects, such as a graphic posted on January 1, 2025. While specific details about Haider s services and background are limited, the Instagram page serves as a visual portfolio, highlighting the creative range and style of the designer.For more information or to inquire about services, you can visit the Instagram page: @haider_designing..','Haider Designing | Graphics (@haider_designing) is a graphic design service based in Latifabad, Hyderabad, Sindh, Pakistan. With over 1,100 followers on Instagram, Haider showcases a diverse portfolio of design work, including logos, posters, and digital illustrations.The Instagram feed features recent projects, such as a graphic posted on January 1, 2025. While specific details about Haider s services and background are limited, the Instagram page serves as a visual portfolio, highlighting the creative range and style of the designer.For more information or to inquire about services, you can visit the Instagram page: @haider_designing..'],
                     autoStart: true,
                     loop: true,
-                    wrapperClassName: '  ml-5 text-[#00308F] text-s font-semibold ',
-                    deleteSpeed: 30,
-                    delay: 50,
+                    wrapperClassName: '  ml-5 text-s font-semibold ',
+                    deleteSpeed: 150,
+                    delay: 100,
 
                   }} />
                     <i>
