@@ -1,7 +1,8 @@
 "useclient"
 import React from "react"
+// import product from "../../../public/assets/image/skin lotion.png"
 // import Link from "next/link"
-// import Image from "next/image"
+import Image from "next/image"
 // import { FaBeer } from "react-icons/fa";
 // import { IoCloudDownloadOutline } from "react-icons/io5";
 // import { WiDayHail } from "react-icons/wi";
@@ -12,7 +13,7 @@ const Project = () => {
         <>
     <div id="project"><>
   <section className="text-gray-600 body-font">
-    <div className="container px-5 py-24 mx-auto">
+    <div className="container px-5 py-4 mx-auto">
       <div className="flex flex-col">
         <div className="h-1 bg-gray-200 rounded overflow-hidden">
           
@@ -48,11 +49,17 @@ wa.me/c/923184855775
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
           <div className="rounded-lg h-64 overflow-hidden">
+            {/* <Image/>
             <img
-              alt="Skinlotion"
               className="object-cover object-center h-full w-full"
-              src={require("./../../../public/assets/image/skin lotion.png")}
-            />
+              alt="Skin"
+              src={"Skin"}
+              width={500}
+              height={500}
+            /> */}
+
+
+            {/* <Image src={"product"} width={100} height={100} alt="pic"/> */}
           </div>
           <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
             Birthday Cards
@@ -140,7 +147,6 @@ wa.me/c/923184855775
       </div>
     </div>
   </section>
-  GitHub
 </>
 </div>
         </>

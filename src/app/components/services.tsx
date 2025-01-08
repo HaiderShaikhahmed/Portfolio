@@ -14,7 +14,7 @@ const Services = () => {
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h2 className="text-lg font-bold text-yellow-500 tracking-widest title-font mb-1">
+              <h2 className="text-lg sm:text-4xl font-bold text-yellow-500 tracking-widest title-font mb-1">
                 Haider Shaikh
               </h2>
 
@@ -34,8 +34,12 @@ const Services = () => {
 
               </h1>
 
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Haider Designing is the insta page of Haider Shaikh.
+              <p className=" line-clamp-2 sm:line-clamp-5 lg:w-2/3 mx-auto leading-relaxed text-base">
+               <i>
+               Haider Designing | Graphics (@haider_designing) is a graphic design service based in Latifabad, Hyderabad, Sindh, Pakistan. With over 1,100 followers on Instagram, Haider showcases a diverse portfolio of design work, including logos, posters, and digital illustrations.
+The Instagram feed features recent projects, such as a graphic posted on January 1, 2025. While specific details about Haider's services and background are limited, the Instagram page serves as a visual portfolio, highlighting the creative range and style of the designer.
+For more information or to inquire about services, you can visit the Instagram page: @haider_designing..
+                </i> 
               </p>
             </div>
             <div className="   flex flex-wrap">
