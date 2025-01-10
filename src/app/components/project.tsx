@@ -1,5 +1,6 @@
 "useclient"
 import React from "react"
+import Project from "../1Project/page"
 
 import PSD from "../../../public/assets/image/hair oil.jpg"
 
@@ -160,7 +161,7 @@ wa.me/c/923184855775
 
 className="px-2 justify-center flex mx-auto  text-blue-900 rounded-sm active:bg-[#a87927] bg-[#FFD700]">View More
 
-<Link href="project" > </Link>
+<Link href="Project" > </Link>
  </button>
 </div>
         </>
