@@ -4,7 +4,7 @@ import React from "react"
 import PSD from "../../../public/assets/image/hair oil.jpg"
 
 import Lotion from "../../../public/assets/image/skin lotion.png"
-// import Link from "next/link"
+import Link from "next/link"
 import Image from "next/image"
 // import { FaBeer } from "react-icons/fa";
 // import { IoCloudDownloadOutline } from "react-icons/io5";
@@ -156,6 +156,12 @@ wa.me/c/923184855775
     </div>
   </section>
 </>
+<button 
+
+className="px-2 justify-center flex mx-auto  text-blue-900 rounded-sm active:bg-[#a87927] bg-[#FFD700]">View More
+
+<Link href={"http://localhost:3000/project"} > </Link>
+ </button>
 </div>
         </>
 
