@@ -160,7 +160,7 @@ wa.me/c/923184855775
 
 className="px-2 justify-center flex mx-auto  text-blue-900 rounded-sm active:bg-[#a87927] bg-[#FFD700]">View More
 
-<Link href={"http://localhost:3000/project"} > </Link>
+<Link href="project" > </Link>
  </button>
 </div>
         </>
