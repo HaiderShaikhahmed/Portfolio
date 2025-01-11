@@ -22,7 +22,7 @@ const Hero = () => {
         
         <div >
       
-      <section  className= " {backgroundStyle} mt-20 sm:mt-18 text-gray-600 body-font ">
+      <section  className= " {backgroundStyle} mt-20 sm:mt-10 text-gray-600 body-font ">
               
        <div >
          {/* Your content here */}
