@@ -1,6 +1,6 @@
 "useclient"
 import React from 'react'
-import pacdoraVideo from "../../../public/assets/image/pacdora.mp4"
+// import pacdoraVideo from "../../../public/assets/image/pacdora.mp4"
  
 
 import PSD from "../../../public/assets/image/hair oil.jpg"
@@ -64,7 +64,8 @@ function Project1() {
       <div className="flex  flex-wrap justify-center w-max-full  sm:grd-col-4 grid-cols-1 gap-x-5 gap-y-2 sm:-m-4 -mx-4 -mb-4  -mt-4">
         <div className=" border-1  bg-white  drop-shadow-md p-2 md:w-1/4 sm:w-1/5 sm:mb-0 mb-6">
           <div className="rounded-lg h-64 overflow-hidden transition  hover:scale-105 active:scale-1 ">
-          <div className="object-contain "><video 
+          <div className="object-contain ">
+            <video 
   src="/assets/image/pacdora.mp4" 
   className='h-[300px] rouneded-md'
   autoPlay 
