@@ -13,34 +13,34 @@ const Contact = () => {
     <div id="contact">
       <>
         <section className="text-gray-600 body-font relative">
-          <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div className="container px-5 py-7 mx-auto flex sm:flex-nowrap flex-wrap">
             <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-              <iframe
+              <iframe 
+
                 width="100%"
                 height="100%"
-                className="absolute inset-0"
+                className=" absolute inset-0"
                 frameBorder={0}
                 title="map"
                 marginHeight={0}
                 marginWidth={0}
                 scrolling="no"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5098.5523571414105!2d68.35660524928684!3d25.363910522766695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c71e001d38e1d%3A0xd169f30b9d14b4e7!2sHaider%20Designing%20%7C%20Graphic%20Designing!5e0!3m2!1sen!2s!4v1736075524058!5m2!1sen!2s"
-                style={{ filter: "Color(1) contrast(1) opacity(0.5" }}
+                style={{ filter: "contrast(1) " }}
 
 
 
               />
-              <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
-                <div className=" mt-2 flex  lg:w-1/2 px-6">
-                  <h2 className="title-font font-semibold text-gray-900 tracking-widest text-lg">
+              <div className="bg-white relative flex flex-wrap py-8 mt-[50px] mb-[50px] mx-[20px] sm:py-2 rounded shadow-md">
+                <div className=" mt-2 flex  lg:w-1/2 px-7 sm:px-6">
+                  <h2 className="title-font font-semibold text-gray-900 tracking-widest sm:text-lg">
                     <MdLocationPin className=" mt-1 text-xl  text-red-600 hover:text-red-900" />
                   </h2>
                   <p >
-
                     latifabad Hyderabad Hyderabad Sindh
                   </p>
                 </div>
-                <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                <div className="lg:w-1/2 px-9  sm:px-6 mt-4 lg:mt-0">
                   <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                     EMAIL
                    </h2>
@@ -54,22 +54,19 @@ const Contact = () => {
               </div>
             </div>
             <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-              <h2 className=" text-4xl mb-2 text-gray-900  font-medium title-font">
+              <h2 className=" text-3xl sm:text-4xl mb-2 text-gray-900  font-medium title-font">
                 Contact us
               </h2>
-              <p className="leading-relaxed mb-5 flex text-2xl font-bold  text-gray-600">
-
-
+              <p className="leading-relaxed mb-5 flex text-[18px] sm:text-[30px] font-bold  text-gray-600">
                 Your feedBack is
                 <Typewriter
                   options={{
                     strings: ['Important for us', 'Valuable for us'],
                     autoStart: true,
                     loop: true,
-                    wrapperClassName: 'ml-2 text-blue-500 font-anydore text-2xl font-bold',
+                    wrapperClassName: 'ml-2 text-blue-500 font-anydore text-[18px] sm:text-[30px]  font-bold',
                     deleteSpeed: 10,
                     delay: 70,
-
                   }}
                 />
 

@@ -24,8 +24,8 @@ const Project = () => {
           
           <div className="w-60 h-full bg-blue-500" />
         </div>
-        <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-          <h1 className="sm:w-2/5 text-center justify-center flex-col sm:flex-row text-gray-900 sm:font-medium title-font  font-bold text-3xl mb-2 sm:mb-0">
+        <div className="flex flex-wrap sm:flex-row flex-col mt-5 bg-white sm:drop-shadow-md mb-12">
+          <h1 className="sm:w-2/5 text-center item-center sm:mt-5 justify-center flex-col sm:flex-row text-gray-900 sm:font-medium title-font  font-bold text-3xl mb-2 sm:mb-0">
             Near to Achievement
             <p className=" text-[#FFD700]  text-center flex justify-center gap-4">
             <IoStarSharp className="transition hover:text-[#ffb342]   hover:-translate-y-1" />
@@ -34,7 +34,7 @@ const Project = () => {
             <IoStarSharp className="transition hover:text-[#ffb342] hover:animate hover:-translate-y-1" />
 </p>
           </h1>
-          <p className=" text-center justify-center  flex flex-col sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
+          <p className=" text-center sm:text-left justify-center  flex flex-col sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
           <h1 className=" text-1xl sm:text-3xl text-black font-bold">Haider_Designing</h1>
 Haider Designing | Graphics
 Art

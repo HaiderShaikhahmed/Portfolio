@@ -13,14 +13,11 @@ const Services = () => {
     <>
       <div id="services">
         <section className="text-gray-600 body-font">
-          <div className="container px-5 py-24 mx-auto">
+          <div className="container px-5 pt-8 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h2 className="text-xl  text-center sm:text-5xl font-bold text-yellow-500 tracking-widest title-font mb-1">
-                Haider Shaikh
-              </h2>
-
-              <p className="leading-relaxed mb-5 flex text-2xl font-bold  text-gray-600"> </p>
-
+              <h2 className="text-[25px]  text-center sm:text-5xl font-bold text-yellow-500 tracking-widest title-font mb-1">
+                Haider Shaikh         </h2>
+              <p className="leading-relaxed mb-1 sm:mb-5 flex text-2xl font-bold  text-gray-600"> </p>
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
                 <Typewriter
                   options={{
@@ -32,11 +29,9 @@ const Services = () => {
                     delay: 70,
 
                   }} />
-
               </h1>
-
               <p className=" line-clamp-2 sm:line-clamp-5 lg:w-2/3 mx-auto leading-relaxed text-base">
-              <Typewriter
+              <i> <Typewriter
                   options={{
                     strings: ['Haider Designing | Graphics (@haider_designing) is a graphic design service based in Latifabad, Hyderabad, Sindh, Pakistan. With over 1,100 followers on Instagram, Haider showcases a diverse portfolio of design work, including logos, posters, and digital illustrations.The Instagram feed features recent projects, such as a graphic posted on January 1, 2025. While specific details about Haider s services and background are limited, the Instagram page serves as a visual portfolio, highlighting the creative range and style of the designer.For more information or to inquire about services, you can visit the Instagram page: @haider_designing..','Haider Designing | Graphics (@haider_designing) is a graphic design service based in Latifabad, Hyderabad, Sindh, Pakistan. With over 1,100 followers on Instagram, Haider showcases a diverse portfolio of design work, including logos, posters, and digital illustrations.The Instagram feed features recent projects, such as a graphic posted on January 1, 2025. While specific details about Haider s services and background are limited, the Instagram page serves as a visual portfolio, highlighting the creative range and style of the designer.For more information or to inquire about services, you can visit the Instagram page: @haider_designing..'],
                     autoStart: true,
@@ -45,15 +40,13 @@ const Services = () => {
                     // typeSpeed : 0,
                     deleteSpeed: 10,
                     delay: 100,
-
-                  }} />
-                    <i>
-               
+                  }} />   
                 </i> 
               </p>
             </div>
-            <div className="flex flex-wrap">
-              <div className="border-b hover:drop-shadow-2xl xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+            
+            <div className="flex flex-wrap gap-y-2">
+              <div className="border-b hover:drop-shadow-2xl xl:w-1/4 lg:w-1/2 md:w-full px-8 py-2 sm:py-6 border-l-2 border-gray-200 border-opacity-60">
                 <h2 className="text-lg  hover:text-blue-700 sm:text-xl text-gray-900 font-medium title-font mb-2">
                   Pakaging Designs
                 </h2>
@@ -86,7 +79,7 @@ const Services = () => {
                   Learn More
                   <FaArrowRightLong  className="ml-3 mt-1 focus:text-blue-600"/> </a>
               </div>
-              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-2 sm:py-6 border-l-2 border-gray-200 border-opacity-60">
                 <h2 className=" hover:text-blue-700 text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
                   Business Card
                 </h2>
