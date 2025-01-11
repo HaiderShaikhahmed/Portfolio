@@ -1,10 +1,11 @@
 "useclient"
 import React from "react"
-import Project from "../1Project/page"
+import Project1 from "../1Project/page"
 
-import PSD from "../../../public/assets/image/hair oil.jpg"
+import Businesscard from "../../../public/assets/image/Business card.jpg"
+import cofee from "../../../public/assets/image/coffee.jpg"
 
-import Lotion from "../../../public/assets/image/skin lotion.png"
+import Bcard from "../../../public/assets/image/birrthday card.png"
 import Link from "next/link"
 import Image from "next/image"
 // import { FaBeer } from "react-icons/fa";
@@ -14,8 +15,8 @@ import Image from "next/image"
 import { IoStarSharp } from "react-icons/io5";
 const Project = () => {
     return (
-        <>
-    <div id="project"><>
+
+    <div id="project">
   <section className="text-gray-600 body-font">
     <div className="container px-5 py-4 mx-auto">
       <div className="flex flex-col">
@@ -58,7 +59,7 @@ wa.me/c/923184855775
             
               className="object-contain rounded-md  hover:translate-x-1  transition h-full w-full"
               alt="Skin"
-              src={Lotion}
+              src={Bcard}
               width={500}
               height={500}
             />
@@ -72,7 +73,7 @@ wa.me/c/923184855775
           <p className="text-base leading-relaxed mt-2">
             A Birthday is a Day to show much you love somone by your heart. It is the Best day to give someone the best wishes via Birthday Card.
           </p>
-          <a className="text-blue-500 inline-flex items-center mt-3">
+          <Link href="https://www.instagram.com/reel/DD_h5fFqH2q/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" className="text-blue-500 inline-flex items-center mt-3">
             Learn More
             <svg
               fill="none"
@@ -80,35 +81,34 @@ wa.me/c/923184855775
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth={2}
-              className="w-4 h-4 ml-2"
+              className="w-4 h-4 ml-2 hover:translate-x-2"
               viewBox="0 0 24 24"
             >
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
-          </a>
+          </Link>
         </div>
-        <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div className="rounded-lg h-64 overflow-hidden">
+        <div className=" p-4 md:w-1/3   delay-100 sm:mb-0 mb-6">
+          <div className="hover:scale-110 hover:drop-shadow-lg  transition rounded-lg h-64 overflow-hidden">
           <Image
             
-            className="object-contain h-full w-full"
-            alt="Skin"
-            src={PSD}
+            className="hover:rounded-xl object-contain h-full w-full"
+            alt="Businesscard"
+            src={Businesscard}
             width={500}
             height={500}
           />
 
           </div>
-          <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-            The Catalyzer
+          <div className=" transition-all ">
+            <h2 className="text-xl  font-medium title-font text-gray-900 mt-5">
+            Business Card
           </h2>
           <p className="text-base leading-relaxed mt-2">
-            Swag shoivdigoitch literally meditation subway tile tumblr
-            cold-pressed. Gastropub street art beard dreamcatcher neutra,
-            ethical XOXO lumbersexual.
-          </p>
+<i>            Business card is the best thing to show your business in a Hand size. It is so usefull for a person as it gives you the best point of the business and their Biography 
+</i>       </p>
           <a className="text-blue-500 inline-flex items-center mt-3">
-            Learn More
+            View More
             <svg
               fill="none"
               stroke="currentColor"
@@ -120,23 +120,23 @@ wa.me/c/923184855775
             >
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
-          </a>
+          </a></div>
         </div>
         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div className="rounded-lg h-64 overflow-hidden">
-            <img
-              alt="content"
-              className="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/1205x505"
+          <div className="rounded-lg hover:rounded-xl hover:scale-110 transition h-64 overflow-hidden">
+            <Image
+                width={500}
+                height={500}
+                 alt="cofee"
+              className="object-contain bg-[#550202] object-center h-full w-full"
+              src={cofee}
             />
           </div>
           <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-            The 400 Blows
+            Label Designing
           </h2>
           <p className="text-base leading-relaxed mt-2">
-            Swag shoivdigoitch literally meditation subway tile tumblr
-            cold-pressed. Gastropub street art beard dreamcatcher neutra,
-            ethical XOXO lumbersexual.
+          Label Designing is the things that shows the impact on your audience.It is the best thing to bring the attension of the large audience. 
           </p>
           <a className="text-blue-500 inline-flex items-center mt-3">
             Learn More
@@ -156,16 +156,13 @@ wa.me/c/923184855775
       </div>
     </div>
   </section>
-</>
-<button 
 
-className="px-2 justify-center flex mx-auto  text-blue-900 rounded-sm active:bg-[#a87927] bg-[#FFD700]">View More
-
-<Link href="Project" > </Link>
- </button>
+ <Link
+ href ="1Project" target="_blank"
+> <button className="flex mx-auto mt-16 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
+Viewmore  </button>
+</Link>
 </div>
-        </>
-
     )
 }
 

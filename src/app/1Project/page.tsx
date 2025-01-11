@@ -11,7 +11,7 @@ import Image from "next/image"
 // import { WiDayHail } from "react-icons/wi";
 // import Typewriter from 'typewriter-effect';
 import { IoStarSharp } from "react-icons/io5";
-function Project() {
+function Project1() {
   return (
     <div id="project_main">
   <section className="text-gray-600 body-font">
@@ -308,4 +308,4 @@ wa.me/c/923184855775
   )
 }
 
-export default Project
+export default Project1
