@@ -1,9 +1,9 @@
-"useclient"
+"use client"
 import React from 'react'
 // import pacdoraVideo from "../../../public/assets/image/pacdora.mp4"
  
 
-import PSD from "../../../public/assets/image/hair oil.jpg"
+// import PSD from "../../../public/assets/image/hair oil.jpg"
 
 import Lotion from "../../../public/assets/image/skin lotion.png"
 // import Link from "next/link"
