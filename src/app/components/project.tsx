@@ -35,7 +35,7 @@ const Project = () => {
 </p>
           </h1>
           <p className=" flex flex-col sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-          <h1 className="text-xl text-black font-bold">Haider_Designing</h1>
+          <h1 className="text-1xl sm:text-3xl text-black font-bold">Haider_Designing</h1>
 Haider Designing | Graphics
 Art
 Birthday Card Designer ©
