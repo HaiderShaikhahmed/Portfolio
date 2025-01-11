@@ -12,7 +12,7 @@ const Services1 = () => {
     <>
       <div id="services">
         <section className="text-gray-600 body-font">
-          <div className="container px-5 py-24 mx-auto">
+          <div className="container px-5 py-14 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
               <h2 className="text-xl  text-center sm:text-5xl font-bold text-yellow-500 tracking-widest title-font mb-1">
                 Haider Shaikh
@@ -51,7 +51,7 @@ const Services1 = () => {
                 </i> 
               </p>
             </div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap gap-y-1 ">
               <div className="border-b hover:drop-shadow-2xl xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                 <h2 className="text-lg  hover:text-blue-700 sm:text-xl text-gray-900 font-medium title-font mb-2">
                   Pakaging Designs
@@ -151,7 +151,7 @@ const Services1 = () => {
                   Learn More
                   <FaArrowRightLong  className="ml-3 mt-1 focus:text-blue-600"/> </a>
               </div>
-              
+
             </div>
             <Link target="_blank"
               href={"https://www.instagram.com/haider_designing/#/"}>

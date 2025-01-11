@@ -57,7 +57,7 @@ wa.me/c/923184855775
           <div className="rounded-lg h-64 overflow-hidden transition  hover:scale-105 active:scale-1 ">
             <Image
             
-              className="object-contain bg-white drop-shadow-md rounded-md  hover:translate-x-1 hover:-translate-y-1 transition h-full w-full"
+              className="object-contain bg-white drop-shadow-xl rounded-md  hover:translate-x-1 hover:-translate-y-1 transition h-full w-full"
               alt="Skin"
               src={Bcard}
               width={500}
@@ -88,7 +88,7 @@ wa.me/c/923184855775
             </svg>
           </Link>
         </div>
-        <div className=" p-4 md:w-1/3   delay-100 sm:mb-0 mb-6">
+        <div className=" drop-shadow-xl bg-white p-4 md:w-1/3   delay-100 sm:mb-0 mb-6">
           <div className="hover:scale-110 hover:drop-shadow-lg  transition rounded-lg h-64 overflow-hidden">
           <Image
             
@@ -122,7 +122,7 @@ wa.me/c/923184855775
             </svg>
           </a></div>
         </div>
-        <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div className=" drop-shadow-xl p-4 md:w-1/3 sm:mb-0 mb-6">
           <div className="rounded-lg hover:rounded-xl hover:scale-110 transition h-64 overflow-hidden">
             <Image
                 width={500}
