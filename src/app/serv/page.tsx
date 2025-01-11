@@ -1,6 +1,5 @@
 "use client"
 import Link from "next/link"
-import Services1 from "../serv/page";
 // import Image from "next/image"
 // import { FaBeer } from "react-icons/fa";
 // import { IoCloudDownloadOutline } from "react-icons/io5";
@@ -8,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 import { FaArrowRightLong } from "react-icons/fa6";
 import React from "react"
 // import { WiDayHail } from "react-icons/wi";
-const Services = () => {
+const Services1 = () => {
   return (
     <>
       <div id="services">
@@ -98,8 +97,8 @@ const Services = () => {
                   <FaArrowRightLong  className="ml-3 mt-1 focus:text-blue-600"/> </a>
               </div>
             </div>
-            <Link 
-              href="serv">
+            <Link target="_blank"
+              href={"https://www.instagram.com/haider_designing/#/"}>
               <button className="flex mx-auto mt-16 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
                 Viewmore    </button>
             </Link>
@@ -112,4 +111,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services1

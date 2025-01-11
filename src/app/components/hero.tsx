@@ -1,6 +1,7 @@
 "use client"
 import React from "react"
-import natureImage from "../../../public/assets/image/nature.jpg"; 
+import Haider from "../../../public/assets/image/HAIDER SHAIKH.png"; 
+import webBackground from "../../../public/assets/image/web background.jpg";
 import Image from "next/image"
 // import Link from "next/link"
 // import { FaBeer } from "react-icons/fa";
@@ -9,25 +10,37 @@ import Image from "next/image"
 import Typewriter from 'typewriter-effect';
 import { motion } from 'framer-motion';
 const Hero = () => {
+    const backgroundStyle = {
+        backgroundImage: "url(webBackground})",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        height: '100vh', // Optional: Set the height as needed
+    };
+    
     return (
-        <>
-            <section className="  text-gray-600 body-font  bg-gray-100">
-                
+        
+        <div >
+      
+      <section  className= " {backgroundStyle}  text-gray-600 body-font ">
+              
+       <div >
+         {/* Your content here */}
+       </div>
             
-<div className="container mx-auto flex px-5 py-8 md:flex-row flex-col items-center">
-                    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                    <Image
-                            className=" hover:scale-125 transition hover:-translate-y-5  object-cover object-center rounded mx-auto w-[80%]"
-                            alt="hero"
-                            src={natureImage}
-                            width={800}
-                            height={800}
+<div className="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
+                    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-8 sm:mb-12 md:mb-0">
+                    <Image            className=" hover:scale-125 transition hover:-translate-y-5  h- object-cover object-center rounded mx-auto sm:w-[70%] w-[100%]"
+                            alt="Haider"
+                            src={Haider}
+                            width={1000}
+                            height={1000}
                         />
                     </div>
                     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
 
-                        <h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium text-gray-900">
-                            <h1 className="   text-[#007FFF] sm:text-5xl  text-4xl sm:mb-4 mb-2">
+                        <h1 className="  title-font sm:text-4xl text-2xl mb-4 font-medium text-gray-900">
+                            <h1 className="   text-[#007FFF] sm:text-3xl md:text-4xl font-semibold text-2xl sm:mb-4 mb-2">
                                 Haider Designing
                             </h1>   <Typewriter
                                 options={{
@@ -37,14 +50,19 @@ const Hero = () => {
                                     wrapperClassName: ' animate-pulse  text-pink-500 font-anydore text-2xl font-bold',
                                     deleteSpeed: 10,
                                     delay: 70,
-
+                                    
                                 }}
                             />
-
+<link
+          href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+          rel="stylesheet"
+          />
                             <br className="hidden lg:inline-block font-mono" />
-                            An Imaginary
+                          <p className="dm-sans-title text-[15px] sm:text-xl">
+                          An Imaginary
                             Skin Care Brand
-                        </h1>
+
+                            </p>                         </h1>
 
                         <p className="mb-8 leading-relaxed text-3xl font-bold">
                             Skin Lotion
@@ -61,10 +79,11 @@ const Hero = () => {
                     </div>
                 </div>
             </section>
+        
 
-        </>
+        </div>
 
-    )
+)
 }
 
 export default Hero

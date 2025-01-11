@@ -20,22 +20,22 @@ const Project = () => {
   <section className="text-gray-600 body-font">
     <div className="container px-5 py-4 mx-auto">
       <div className="flex flex-col">
-        <div className="h-1 bg-gray-200 rounded overflow-hidden">
+        <div className="h-1  rounded overflow-hidden">
           
           <div className="w-60 h-full bg-blue-500" />
         </div>
         <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-          <h1 className="sm:w-2/5 text-gray-900 sm:font-medium title-font  font-bold text-5xl mb-2 sm:mb-0">
+          <h1 className="sm:w-2/5 text-center justify-center flex-col sm:flex-row text-gray-900 sm:font-medium title-font  font-bold text-3xl mb-2 sm:mb-0">
             Near to Achievement
-            <p className=" text-[#FFD700]  flex gap-4">
+            <p className=" text-[#FFD700]  text-center flex justify-center gap-4">
             <IoStarSharp className="transition hover:text-[#ffb342]   hover:-translate-y-1" />
             <IoStarSharp className="transition hover:text-[#ffb342]   hover:-translate-y-1" />
             <IoStarSharp className=" transition hover:text-[#ffb342]  hover:-translate-y-1"/>
             <IoStarSharp className="transition hover:text-[#ffb342] hover:animate hover:-translate-y-1" />
 </p>
           </h1>
-          <p className=" flex flex-col sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-          <h1 className="text-1xl sm:text-3xl text-black font-bold">Haider_Designing</h1>
+          <p className=" text-center justify-center  flex flex-col sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
+          <h1 className=" text-1xl sm:text-3xl text-black font-bold">Haider_Designing</h1>
 Haider Designing | Graphics
 Art
 Birthday Card Designer ©
@@ -57,7 +57,7 @@ wa.me/c/923184855775
           <div className="rounded-lg h-64 overflow-hidden transition  hover:scale-105 active:scale-1 ">
             <Image
             
-              className="object-contain rounded-md  hover:translate-x-1  transition h-full w-full"
+              className="object-contain bg-white drop-shadow-md rounded-md  hover:translate-x-1 hover:-translate-y-1 transition h-full w-full"
               alt="Skin"
               src={Bcard}
               width={500}
@@ -158,7 +158,7 @@ wa.me/c/923184855775
   </section>
 
  <Link
- href ="1Project" target="_blank"
+ href ="1Project"
 > <button className="flex mx-auto mt-16 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
 Viewmore  </button>
 </Link>

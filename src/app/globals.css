@@ -62,6 +62,14 @@
     @apply bg-background text-foreground;
   }
 }
-.custom-image{
+
+/* .custom-image{
   background-image: url("./../../public/assets/image/cay.jpg");
- }
+ } */
+ .dm-sans-title {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Use 400 for regular weight or 700 for bold */
+  font-style: normal;
+}
+
