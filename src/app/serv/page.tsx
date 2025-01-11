@@ -96,6 +96,62 @@ const Services1 = () => {
                   Learn More
                   <FaArrowRightLong  className="ml-3 mt-1 focus:text-blue-600"/> </a>
               </div>
+              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                <h2 className=" hover:text-blue-700 text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                  Business Card
+                </h2>
+                <p className="leading-relaxed text-base mb-4 line-clamp-2">
+                 Here We are Creating Business cards that incourage and boost Your sales via a good impacts
+                </p>
+                <a  href ="https://www.instagram.com/haider_designing/#/" className="text-yellow-500 inline-flex items-center">
+                  Learn More
+                  <FaArrowRightLong  className="ml-3 mt-1 focus:text-blue-600"/> </a>
+              </div>
+              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                <h2 className=" hover:text-blue-700 text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                  Business Card
+                </h2>
+                <p className="leading-relaxed text-base mb-4 line-clamp-2">
+                 Here We are Creating Business cards that incourage and boost Your sales via a good impacts
+                </p>
+                <a  href ="https://www.instagram.com/haider_designing/#/" className="text-yellow-500 inline-flex items-center">
+                  Learn More
+                  <FaArrowRightLong  className="ml-3 mt-1 focus:text-blue-600"/> </a>
+              </div>
+              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                <h2 className=" hover:text-blue-700 text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                  Business Card
+                </h2>
+                <p className="leading-relaxed text-base mb-4 line-clamp-2">
+                 Here We are Creating Business cards that incourage and boost Your sales via a good impacts
+                </p>
+                <a  href ="https://www.instagram.com/haider_designing/#/" className="text-yellow-500 inline-flex items-center">
+                  Learn More
+                  <FaArrowRightLong  className="ml-3 mt-1 focus:text-blue-600"/> </a>
+              </div>
+              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                <h2 className=" hover:text-blue-700 text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                  Business Card
+                </h2>
+                <p className="leading-relaxed text-base mb-4 line-clamp-2">
+                 Here We are Creating Business cards that incourage and boost Your sales via a good impacts
+                </p>
+                <a  href ="https://www.instagram.com/haider_designing/#/" className="text-yellow-500 inline-flex items-center">
+                  Learn More
+                  <FaArrowRightLong  className="ml-3 mt-1 focus:text-blue-600"/> </a>
+              </div>
+              <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                <h2 className=" hover:text-blue-700 text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                  Business Card
+                </h2>
+                <p className="leading-relaxed text-base mb-4 line-clamp-2">
+                 Here We are Creating Business cards that incourage and boost Your sales via a good impacts
+                </p>
+                <a  href ="https://www.instagram.com/haider_designing/#/" className="text-yellow-500 inline-flex items-center">
+                  Learn More
+                  <FaArrowRightLong  className="ml-3 mt-1 focus:text-blue-600"/> </a>
+              </div>
+              
             </div>
             <Link target="_blank"
               href={"https://www.instagram.com/haider_designing/#/"}>
