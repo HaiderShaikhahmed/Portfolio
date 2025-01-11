@@ -153,11 +153,7 @@ const Services1 = () => {
               </div>
 
             </div>
-            <Link target="_blank"
-              href={"https://www.instagram.com/haider_designing/#/"}>
-              <button className="flex mx-auto mt-16 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
-                Viewmore    </button>
-            </Link>
+            
           </div>
         </section>
 
