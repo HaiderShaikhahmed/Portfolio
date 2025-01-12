@@ -1,7 +1,7 @@
 "use client"
 import React from "react"
 import Haider from "../../../public/assets/image/HAIDER SHAIKH.png"; 
-import webBackground from "../../../public/assets/image/web background.jpg";
+// import webBackground from "../../../public/assets/image/web background.jpg";
 import Image from "next/image"
 // import Link from "next/link"
 // import { FaBeer } from "react-icons/fa";
@@ -10,27 +10,21 @@ import Image from "next/image"
 import Typewriter from 'typewriter-effect';
 import { motion } from 'framer-motion';
 const Hero = () => {
-    const backgroundStyle = {
-        backgroundImage: "url(webBackground})",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        height: '100vh', // Optional: Set the height as needed
-    };
-    
+     
     return (
         
-        <div >
       
-      <section  className= " {backgroundStyle} mt-20 sm:mt-10 text-gray-600 body-font ">
+        <div >
+      <section  className= "  text-gray-600 body-font ">
+
+     
+      <div className="bg-bg-image bg-blankOverlay bg-blur bg-cover bg-center h-screen w-full">
               
-       <div >
-         {/* Your content here */}
-       </div>
+        
             
 <div className="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-8 sm:mb-12 md:mb-0">
-                    <Image className=" hover:scale-125 transition hover:-translate-y-5  h- object-cover object-center rounded mx-auto sm:w-[80%] w-[100%]"
+                    <Image className=" mt-6 hover:scale-125 transition hover:-translate-y-5  h- object-cover object-center rounded mx-auto sm:w-[80%] w-[100%]"
                             alt="Haider"
                             src={Haider}
                             width={1000}
@@ -74,6 +68,7 @@ const Hero = () => {
                  
                     </div>
                 </div>
+        </div>
             </section>
         
 

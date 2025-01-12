@@ -54,17 +54,17 @@ const Contact = () => {
               </div>
             </div>
             <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-              <h2 className=" text-3xl sm:text-4xl mb-2 text-gray-900  font-medium title-font">
+              <h2 className=" text-3xl sm:text-[45px] mb-2 text-gray-900  font-medium title-font">
                 Contact us
               </h2>
-              <p className="leading-relaxed mb-5 flex text-[18px] sm:text-[30px] font-bold  text-gray-600">
+              <p className="leading-relaxed mb-5 flex text-[18px] sm:text-[22px] font-bold  text-gray-600">
                 Your feedBack is
                 <Typewriter
                   options={{
                     strings: ['Important for us', 'Valuable for us'],
                     autoStart: true,
                     loop: true,
-                    wrapperClassName: 'ml-2 text-blue-500 font-anydore text-[18px] sm:text-[30px]  font-bold',
+                    wrapperClassName: 'ml-2 text-blue-500 font-anydore text-[18px] sm:text-[22px]  font-bold',
                     deleteSpeed: 10,
                     delay: 70,
                   }}
