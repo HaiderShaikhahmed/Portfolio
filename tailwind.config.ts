@@ -57,8 +57,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       backgroundImage: {
-        'bg-image': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdu-90dW7AFkMcHRefBvj-r929PL4oL2Ybcg&s')", // Path relative to the public folder
-		blackOverlay:"linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,8) 100%)",
+        'bg-image': "url('/assets/image/bg-image.jpg')", // Path relative to the public folder
+		'bg-opacity': 'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%)',
       },
     },
   },

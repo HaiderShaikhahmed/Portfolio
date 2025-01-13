@@ -15,16 +15,16 @@ const Hero = () => {
         
       
         <div >
-      <section  className= "  text-gray-600 body-font ">
+      <section  className= "  text-gray-600 body-font  ">
 
      
-      <div className="bg-bg-image bg-blankOverlay bg-blur bg-cover bg-center h-screen w-full">
+      <div className="bg-bg-image  bg-opacity relative  bg-blur bg-cover bg-center   w-full">
               
         
             
-<div className="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
-                    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-8 sm:mb-12 md:mb-0">
-                    <Image className=" mt-6 hover:scale-125 transition hover:-translate-y-5  h- object-cover object-center rounded mx-auto sm:w-[80%] w-[100%]"
+<div className="container mx-auto flex px-5  py-2 md:flex-row flex-col items-center">
+<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-8 sm:mb-12 md:mb-0">
+ <Image className=" mt-6 hover:scale-125 transition hover:-translate-y-5  h- object-cover object-center rounded mx-auto sm:w-[80%] w-[100%]"
                             alt="Haider"
                             src={Haider}
                             width={1000}
