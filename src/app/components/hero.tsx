@@ -3,12 +3,13 @@ import React from "react"
 import Haider from "../../../public/assets/image/HAIDER SHAIKH.png"; 
 // import webBackground from "../../../public/assets/image/web background.jpg";
 import Image from "next/image"
-// import Link from "next/link"
+import Link from "next/link"
 // import { FaBeer } from "react-icons/fa";
 // import { IoCloudDownloadOutline } from "react-icons/io5";
 // import { WiDayHail } from "react-icons/wi";
 import Typewriter from 'typewriter-effect';
 import { motion } from 'framer-motion';
+// import Link from "next/link";
 const Hero = () => {
      
     return (
@@ -58,12 +59,14 @@ const Hero = () => {
                             Skin Lotion
                         </p>
                         <div className="flex justify-center">
-                            <button className=" hover:-translate-y-2  transition delay-75  inline-flex text-white hover:bg-[#00308F] border-0 py-2 px-6 focus:outline-none bg-[#007FFF] font-semibold rounded text-lg">
+                        <Link href={"https://www.instagram.com/haider_designing#/"}>  <button className=" hover:-translate-y-2  transition delay-75  inline-flex text-white hover:bg-[#00308F] border-0 py-2 px-6 focus:outline-none bg-[#007FFF] font-semibold rounded text-lg">
                                 Vist page
                             </button>
-                            <button className="ml-4 inline-flex text-white   font-semibold hover:-translate-y-2  transition delay-75 bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-8   00  rounded text-lg">
+                            </Link>
+                           <Link href={"#contact"}>  <button className="ml-4 inline-flex text-white   font-semibold hover:-translate-y-2  transition delay-75 bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-8   00  rounded text-lg">
                                 Contact
                             </button>
+                            </Link>
                         </div>
                  
                     </div>
