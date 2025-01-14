@@ -39,7 +39,7 @@ const Hero = () => {
                                 Haider Designing
                             </h1>   <Typewriter
                                 options={{
-                                    strings: ['CROSSWORLD', 'Skin Care Brand'],
+                                    strings: ['GraphicDesigning', 'UI/UX Designing'],
                                     autoStart: true,
                                     loop: true,
                                     wrapperClassName: ' animate-pulse  text-pink-500 font-anydore sm:text-3xl text-4xl font-bold',
