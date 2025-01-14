@@ -10,14 +10,14 @@ export default function Home() {
   return (
     
     <div>
-    {/* <Hero/> */}
+    <Hero/>
     <div>
-    {/* <Project/> */}
+    <Project/>
     </div>
-    {/* <Services/> */}
+    <Services/>
   
     <Promotion/>
-    {/* <Contact/> */}
+    <Contact/>
      </div>
   );
 }
