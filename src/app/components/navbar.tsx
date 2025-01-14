@@ -2,6 +2,7 @@
 import logo from "../../../public/assets/image/logo.jpeg";
 import Link from "next/link"
 import Image from "next/image"
+
 // import { FaBeer } from "react-icons/fa";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
@@ -33,9 +34,9 @@ const Navbar = () => {
                     </button> </div>
                     <nav className={`${
                         isMenuOpen ? "block" : "hidden"
-                    } sm:block text-white md:ml-auto mx-auto space-between md:mr-auto sm:space-x-1 space-x-2  md:space-x-2 sm:gap-6 gap-4 flex flex-wrap items-center text-s sm:text-lg justify-center`}>
-                    <Link href={"/"}className=" px-1 rounded-md active:text-red-500 transition  hover:shadow-md hover:bg-white hover:w-15 hover:text-blue-900">Home</Link>
-                    <Link href={"#project"}className="px-1 rounded-md  mr-5    transition active:text-red-500  hover:shadow-md  hover:bg-white hover:w-15 hover:text-blue-900">Projects</Link>
+                    } sm:block text-white md:ml-auto mx-auto space-between md:mr-auto sm:space-x-4 space-x-2  md:space-x-8 sm:gap-6 gap-4 flex flex-wrap items-center text-s sm:text-lg justify-center`}>
+                    <Link href={"/"} className=" px-1 rounded-md active:text-red-500 transition  hover:shadow-md hover:bg-white hover:w-15 hover:text-blue-900">Home</Link>
+                    <Link href={"#project"} className="px-1 rounded-md  mr-5    transition active:text-red-500  hover:shadow-md  hover:bg-white hover:w-15 hover:text-blue-900">Projects</Link>
                     <Link href={"#services"}className="px-1 rounded-md mr-5  transition   active:text-red-500  hover:shadow-md hover:bg-white hover:w-15 hover:text-blue-900">Services</Link>
                     <Link href={"#contact"}className="px-1 rounded-md  mr-5 transition active:text-red-500   hover:shadow-md hover:bg-white hover:w-15 hover:text-blue-900">Contact us </Link>
                 </nav>

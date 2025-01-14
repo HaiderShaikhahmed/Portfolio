@@ -52,11 +52,11 @@ const Promotion = () => {
       <i> Go Our Instapage "@haider_designing" select the Design and send to our DM and get your Design. With an Amazing Experience and dont forget to give us your Feedback it means usalot. </i>
       </p>
       <Link
-        href="#"
+        href={"https://www.instagram.com/haider_designing#/"}
         className="ml-4    delay-75 bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-800 text-lg inline-flex items-center justify-center rounded-lg bg-primary-700  text-center  font-medium text-white transition delay-50 hover:-translate-y-2 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 "
       >
         {" "}
-        Order now{" "}
+        DM Now{" "}
       </Link>
     </div>
   </div>

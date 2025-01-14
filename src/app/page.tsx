@@ -4,19 +4,20 @@ import Contact from "./components/contact";
 import Project from "./components/project";
 import Services from "./components/services";
 import Promotion from "./components/promotion";
-
+import Termsandcondition from "./components/Termsandcondition";
+ 
 export default function Home() {
   return (
     
     <div>
-    <Hero/>
+    {/* <Hero/> */}
     <div>
-    <Project/>
+    {/* <Project/> */}
     </div>
-    <Services/>
+    {/* <Services/> */}
   
     <Promotion/>
-    <Contact/>
+    {/* <Contact/> */}
      </div>
   );
 }
