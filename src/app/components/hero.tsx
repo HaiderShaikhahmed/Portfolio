@@ -19,7 +19,7 @@ const Hero = () => {
       <section  className= "  text-gray-600 body-font  ">
 
      
-      <div className="bg-bg-image  bg-opacity relative  bg-blur bg-cover bg-center   w-full">
+      <div className="bg-ge  bg-opacity relative  bg-blur bg-cover bg-center   w-full">
               
         
             
@@ -32,16 +32,16 @@ const Hero = () => {
                             height={1000}
                         />
                     </div>
-                    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col mt-6 sm:mt-0 md:items-start md:text-left items-center text-center">
+     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col mt-6 sm:mt-0 md:items-start md:text-left items-center text-center">
 
-                        <h1 className="  title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">
+           <h1 className="  title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">
                             <h1 className=" text-[#007FFF] sm:text-2xl md:text-4xl lg:text-8xl font-bold text-3xl sm:mb-3 mb-2">
                                 Haider Designing
-                            </h1>   <Typewriter
+               </h1>   <Typewriter
                                 options={{
                                     strings: ['GraphicDesigning', 'UI/UX Designing'],
                                     autoStart: true,
-                                    loop: true,
+                    loop: true,
                                     wrapperClassName: ' animate-pulse  text-pink-500 font-anydore sm:text-3xl text-4xl font-bold',
                                     deleteSpeed: 10,
                                     delay: 70,
