@@ -1,5 +1,10 @@
-"useclient"
+"use client"
 import React from "react"
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
+
+import { RiInstagramFill } from "react-icons/ri";
 import Project1 from "../1Project/page"
 
 import Businesscard from "../../../public/assets/image/Business card.jpg"
@@ -13,8 +18,15 @@ import Image from "next/image"
 // import { WiDayHail } from "react-icons/wi";
 // import Typewriter from 'typewriter-effect';
 import { IoStarSharp } from "react-icons/io5";
+
 const Project = () => {
-    return (
+   useEffect(() => {
+       AOS.init({
+         duration: 1500, // Animation duration in milliseconds
+         once: false, // Whether animation should happen only once
+       });
+     }, []);
+      return (
 
     <div id="project">
   <section className="text-gray-600 body-font">
@@ -24,6 +36,7 @@ const Project = () => {
           
           <div className="w-60 h-full bg-blue-500" />
         </div>
+        <div className="flex justify-center mx-auto " >
         <div className="flex flex-wrap sm:flex-row flex-col mt-5 bg-white sm:drop-shadow-md mb-12">
           <h1 className="sm:w-2/5 text-center item-center sm:mt-5 justify-center flex-col sm:flex-row text-gray-900 sm:font-medium title-font  font-bold text-3xl mb-2 sm:mb-0">
             Near to Achievement
@@ -33,6 +46,8 @@ const Project = () => {
             <IoStarSharp className=" transition hover:text-[#ffb342]  hover:-translate-y-1"/>
             <IoStarSharp className="transition hover:text-[#ffb342] hover:animate hover:-translate-y-1" />
 </p>
+          <RiInstagramFill className=" -mt-1 items-center justify-center mx-auto transition hover:drop-shadow-xl animation-in delay-75 hover:text-[#f00] text-[70px] " />
+          Instagram
           </h1>
           <p className=" text-center sm:text-left justify-center  flex flex-col sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
           <h1 className=" text-1xl sm:text-3xl text-black font-bold">Haider_Designing</h1>
@@ -51,10 +66,11 @@ wa.me/c/923184855775
 
           </p>
         </div>
+        </div>
       </div>
-      <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-        <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div className="rounded-lg h-64 overflow-hidden transition  hover:scale-105 active:scale-1 ">
+      <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 ">
+        <div className="p-4 md:w-1/3 sm:mb-0 mb-6 drop-shadow-lg" data-aos="pop" >
+          <div className="rounded-lg h-64 overflow-hidden transition  hover:scale-105 active:scale-1 " >
             <Image
             
               className="object-contain bg-white drop-shadow-xl rounded-md  hover:translate-x-1 hover:-translate-y-1 transition h-full w-full"
@@ -67,7 +83,7 @@ wa.me/c/923184855775
 
             {/* <Image src={"product"} width={100} height={100} alt="pic"/> */}
           </div>
-          <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
+          <h2 className="text-xl font-medium title-font text-gray-900 mt-5" >
             Birthday Cards
           </h2>
           <p className="text-base leading-relaxed mt-2">
@@ -88,13 +104,13 @@ wa.me/c/923184855775
             </svg>
           </Link>
         </div>
-        <div className=" drop-shadow-xl bg-white p-4 md:w-1/3   delay-100 sm:mb-0 mb-6">
+        <div className=" drop-shadow-xl bg-white p-4 md:w-1/3   delay-100 sm:mb-0 mb-6"data-aos="pop">
           <div className="hover:scale-110 hover:drop-shadow-lg  transition rounded-lg h-64 overflow-hidden">
           <Image
             
             className="hover:rounded-xl object-contain h-full w-full"
             alt="Businesscard"
-            src={Businesscard}
+            src={Businesscard}  
             width={500}
             height={500}
           />
@@ -122,7 +138,7 @@ wa.me/c/923184855775
             </svg>
           </a></div>
         </div>
-        <div className=" drop-shadow-xl p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div className=" drop-shadow-xl p-4 md:w-1/3 sm:mb-0 mb-6 " data-aos="pop">
           <div className="rounded-lg hover:rounded-xl hover:scale-110 transition h-64 overflow-hidden">
             <Image
                 width={500}
@@ -132,7 +148,7 @@ wa.me/c/923184855775
               src={cofee}
             />
           </div>
-          <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
+          <h2 className="text-xl font-medium title-font text-gray-900 mt-5 " >
             Label Designing
           </h2>
           <p className="text-base leading-relaxed mt-2">
@@ -159,7 +175,7 @@ wa.me/c/923184855775
 
  <Link
  href ="1Project"
-> <button className="flex mx-auto mt-16 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
+> <button data-aos="pop1" className="flex mx-auto mt-5 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
 Viewmore  </button>
 </Link>
 </div>

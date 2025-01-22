@@ -1,6 +1,7 @@
 "use client"
 import React from "react"
 import Haider from "../../../public/assets/image/HAIDER SHAIKH.png"; 
+import BG from "../../../public/assets/image/BG-IMAGE.jpg"; 
 // import webBackground from "../../../public/assets/image/web background.jpg";
 import Image from "next/image"
 import Link from "next/link"
@@ -12,49 +13,34 @@ import { motion } from 'framer-motion';
 // import Link from "next/link";
 const Hero = () => {
      
-    return (
-        
-      
-        <div >
-      <section  className= "  text-gray-600 body-font  ">
-
-     
-      <div className="bg-ge  bg-opacity relative  bg-blur bg-cover bg-center   w-full">
-              
-        
-            
+    return ( 
+        <div className= " mx-auto max-w-full bg-white drop-shadow-lg bottom-"> 
+      <section  className=  " text-gray-600 body-font  ">
+      <div className="bg-opacity relative  bg-blur bg-cover bg-center drop-shadow-sm  w-full">                      
 <div className="container mx-auto flex px-5  py-2 md:flex-row flex-col items-center">
 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-8 sm:mb-12 md:mb-0">
- <Image className=" mt-6 hover:scale-125 transition hover:-translate-y-5  h- object-cover object-center rounded mx-auto sm:w-[80%] w-[100%]"
-                            alt="Haider"
-                            src={Haider}
-                            width={1000}
-                            height={1000}
-                        />
+ <Image className=" mt-6 hover:scale-105 transition hover:-translate-y-5 animate-in hover:translate-x-2 h- object-cover object-center rounded mx-auto sm:w-[80%] w-[100%]"
+                            alt="Haider" src={Haider} width={1000} height={1000}/>
                     </div>
-     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col mt-6 sm:mt-0 md:items-start md:text-left items-center text-center">
+     <div className=" max-w-[100%] sm:max-w-[80%] mx-auto lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col mt-6 sm:mt-0 md:items-start md:text-left items-center text-center">
 
            <h1 className="  title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">
-                            <h1 className=" text-[#007FFF] sm:text-2xl md:text-4xl lg:text-8xl font-bold text-3xl sm:mb-3 mb-2">
+                            <h1 className=" text-[#007FFF] sm:text-2xl md:text-3xl lg:text-8xl font-bold text-3xl sm:mb-3 mb-2">
                                 Haider Designing
                </h1>   <Typewriter
                                 options={{
-                                    strings: ['GraphicDesigning', 'UI/UX Designing'],
+                                    strings: ['Graphic Designing', 'UI/UX Designing','Web Designing','Logo Designing','Pakaging Designing'],
                                     autoStart: true,
                     loop: true,
                                     wrapperClassName: ' animate-pulse  text-pink-500 font-anydore sm:text-3xl text-4xl font-bold',
                                     deleteSpeed: 10,
-                                    delay: 70,
-                                    
-                                }}
-                            />
+                                    delay: 70,          }}/>
 <link
           href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
           rel="stylesheet"
           /> <br className="hidden lg:inline-block font-mono" />
                           <p className="dm-sans-title text-[20px] sm:text-4xl">
-                          An Imaginary
-                            Skin Care Brand</p>   </h1>
+                          One Step Towards Creativity  </p>   </h1>
                         <p className="mb-7 leading-relaxed sm:text-4xl text-5xl font-semibold">
                             Skin Lotion
                         </p>

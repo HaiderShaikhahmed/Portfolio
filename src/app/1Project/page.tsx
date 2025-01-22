@@ -1,12 +1,12 @@
 "use client"
-import React from 'react'
-// import pacdoraVideo from "../../../public/assets/image/pacdora.mp4"
- 
-
-// import PSD from "../../../public/assets/image/hair oil.jpg"
-
+import React from "react"
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
+import ChipsLabel from "./../../../public/assets/image/BananaChips.jpg"
+import Haleem from "./../../../public/assets/image/Haleem.jpg"
 import Lotion from "../../../public/assets/image/skin lotion.png"
-// import Link from "next/link"
+import Link from "next/link"
 import Image from "next/image"
 // import { FaBeer } from "react-icons/fa";
 // import { IoCloudDownloadOutline } from "react-icons/io5";
@@ -14,17 +14,18 @@ import Image from "next/image"
 // import Typewriter from 'typewriter-effect';
 import { IoStarSharp } from "react-icons/io5";
 function Project1() {
+  useEffect(() => {
+        AOS.init({
+          duration: 1500, // Animation duration in milliseconds
+          once: false, // Whether animation should happen only once
+        });
+      }, []);
   return (
-    <div id="project_main">
+    <div id="project_main" >
   <div>
-  <h1 className="font-bold text-2xl mt-1 justify-center text-center flex" >InstaProfile</h1>
-  
-
+  <h1 className="font-bold sm:text-5xl  text-4xl mt-5 justify-center text-center flex" >PROJECTS</h1>
   </div>
   <section className="text-gray-600 body-font">
-    <div>
-      <h1 className="font-bold text-2xl mt-1 justify-center text-center flex" >PORTFOLIO</h1>
-    </div>
     <div className="container px-5 py-4 mx-auto">
      <div className="flex flex-col">
              <div className="h-1  rounded overflow-hidden">
@@ -59,9 +60,11 @@ function Project1() {
                </p>
              </div>
            </div>
-           <div>
-           </div>
-      <div className="flex  flex-wrap justify-center w-max-full  sm:grd-col-4 grid-cols-1 gap-x-5 gap-y-2 sm:-m-4 -mx-4 -mb-4  -mt-4">
+           
+               <div>
+      <h1 className="font-bold text-2xl  p-5 justify-center text-center flex" >Category</h1>
+    </div>
+      <div className="flex   flex-wrap justify-center w-max-full  sm:grd-col-4 grid-cols-1 gap-x-5 gap-y-2 sm:-m-4 -mx-4 -mb-4  ">
         <div className=" border-1  bg-white  drop-shadow-md p-2 md:w-1/4 sm:w-1/5 sm:mb-0 mb-6">
           <div className="rounded-lg h-64 overflow-hidden transition  hover:scale-105 active:scale-1 ">
           <div className="object-contain ">
@@ -70,16 +73,11 @@ function Project1() {
   className='h-[300px] rouneded-md'
   autoPlay 
   muted 
-  loop 
-  
+  loop  
   width="100%" 
 />
-
            </div>
-
-
-            {/* <Image src={"product"} width={100} height={100} alt="pic"/> */}
-          </div>
+   {/* <Image src={"product"} width={100} height={100} alt="pic"/> */} </div>
           <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
             Birthday Cards
           </h2>
@@ -138,15 +136,15 @@ function Project1() {
         </div>
         <div className=" border-1 bg-white  drop-shadow-md p-2  sm:w-1/5 sm:mb-0 mb-6">
           <div className="rounded-lg h-64 overflow-hidden transition  hover:scale-105 active:scale-1 ">
+            <Link href="https://www.instagram.com/p/DFACGVgArvf/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
             <Image
             
-              className="object-contain rounded-md  hover:translate-x-1  transition h-full w-full"
+              className="object-contain rounded-md  hover:translate-x-1 hover:scale-105  transition h-full w-full"
               alt="Skin"
-              src={Lotion}
+              src={ChipsLabel}
               width={500}
               height={500}
             />
-
 
             {/* <Image src={"product"} width={100} height={100} alt="pic"/> */}
           </div>
@@ -177,7 +175,7 @@ function Project1() {
             
               className="object-contain rounded-md  hover:translate-x-1  transition h-full w-full"
               alt="Skin"
-              src={Lotion}
+              src={Haleem}
               width={500}
               height={500}
             />

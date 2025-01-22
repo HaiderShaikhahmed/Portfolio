@@ -15,7 +15,7 @@ const Navbar = () => {
         setIsMenuOpen(!isMenuOpen); // Toggle menu open/close
     };
     return (
-        <div className="sticky top-0 z-50 mx-auto bg-[#00308F] "><header className="text-gray-600 body-font">
+        <div className="scroll-smooth sticky top-1 z-50 max-w-[90%] text-wrap sm:w-full mx-auto  pt-4 sm:pt-0 sm:rounded-t-[25px] rounded-t-[0px]  bg-[#00308F] "><header className="text-gray-600 body-font">
            
             <div className="left-side text-white container mx-auto  flex flex-wrap  px-2  sm:p-3 flex-col md:flex-row items-center">
             <div className="flex space-between justify-center">  <a  href="https://www.instagram.com/haider_designing/#/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">

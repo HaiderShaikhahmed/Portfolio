@@ -57,10 +57,18 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       backgroundImage: {
-        'bg-image': "url('/assets/image/bg-image.jpg')", // Path relative to the public folder
+        
+        'bg-image': "url('/assets/image/BG-IMAGE.jpg')", // Path relative to the public folder
 		'bg-opacity': 'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%)',
-      },
+ },
     },
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
+
+// backgroundImage: {
+        
+//   'bg-image': "url('/assets/image/BG-IMAGE.jpg')", // Path relative to the public folder
+// 'bg-opacity': 'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%)',
+// },
